@@ -1,0 +1,202 @@
+
+/*Fixed Page Css*/
+
+body{
+	font-family: 'PT Sans';
+	text-align: center;
+	margin: 0px;
+}
+
+.container-fluid{
+	padding: 7% 15%;
+}
+
+/* Navtitle */
+
+#Navtitle{
+	background-color: #ff5f40;
+	color: #ffffff;
+	padding-top: 20px;
+}
+
+
+/* Navbar */
+
+.navbar{
+	padding: 0 0 6% !important; 
+	font-size: 1.3rem;
+}
+
+.navbar-brand{
+	font-size: 2.7rem;
+	font-weight: bold;
+}
+.nav-item{
+	padding: 0px 15px;
+}
+
+.nav-item:hover{
+	border-bottom: 2px dotted white;
+}
+
+.nav-link{
+	color: #ffffff !important;
+}
+
+.nav-link:hover{
+	color: #000000 !important;
+}
+
+
+/* Title */
+
+.title-h1{
+	font-size: 4.3rem;
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: left;
+	padding: 6% 0;
+}
+
+.title-button{
+	margin: 20px 0px;
+}
+
+.title-image{
+	width: 70%;
+	transform: rotate(20deg);
+	position: absolute;
+	right: 10%;
+}
+
+
+/* Features */
+
+
+#features{
+	position: relative;
+	background-color: #ffffff;
+}
+
+.feature-h3{
+	padding-top: 9%;
+	font-size: 1.6rem;
+}
+
+.feature-icon{
+	color: #ff5f40;
+}
+
+.feature-icon:hover{
+	color: #000000;
+}
+
+.feature-p{
+	color: grey;
+	font-size: 15px;
+}
+
+
+/*Testimonials*/
+
+#testimonials{
+	background-color: #ff5f40;
+	color: #ffffff;
+}
+
+.testimonial-text{
+	font-size: 2.5rem;
+	line-height: 1.5;
+	padding-bottom: 2%;
+}
+
+.testimonial-image{
+	width: 15%;
+	border-radius: 100%;
+}
+
+
+/*Pricing*/
+
+.pricing-h2{
+	font-size: 3.5rem;
+}
+
+.pricing-p{
+	color: grey;
+	margin: 20px 0px 60px 0px;
+	font-size: 25px;
+}
+
+.pricing-card-padding{
+	padding: 10%;
+	border-radius: 20px;
+	background-color: #e4e3e3;
+}
+
+.pricing-card-heading{
+	border-radius: 20px !important;
+}
+
+.pricing-button{
+	border-radius: 20px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+.modal-title{
+	font-size: 1.8rem;
+	color: #ffffff;
+	text-align: center;
+}
+
+/*CTA*/
+
+#cta{
+	background-color: #ff5f40;
+	color: #ffffff;
+}
+
+
+.cta-heading{
+	font-size: 3.5rem;
+	padding: 0 0 3% 0;
+}
+
+
+/*Footer*/
+#footer{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.footer-hr{
+	border: 1px solid #fd4900;
+}
+
+.footer-p{
+	font-size: 1.1rem;
+	color: #ffffff;
+}
+
+/* Media Query */
+
+@media (max-width: 991px){
+	a.nav-link{
+		text-align: left;
+	}
+
+	.navbar-collapse{
+		background-color: #007bff;
+    	border-radius: 10px;
+	}
+
+	.title-image{
+		transform: rotate(0deg);
+		margin-top: 50px;
+		position: static;
+	}
+}
